@@ -1,12 +1,24 @@
 # Communication Ruler
 
-## Setup
+> Short blurb about what your product does.
 
-TODO
+One to two paragraph statement about your product and what it does.
+
+## Getting Started
+
+> TODO
+
+### Requirements
+
+> TODO
+
+### Installation
+
+> TODO
 
 ## Development
 
-TODO
+> TODO
 
 ## Testing
 
@@ -16,10 +28,22 @@ TODO
 
 > TODO
 
+## Changelog
+
+> TODO
+
+## Support
+
+> TODO
+
+## Contributing
+
+> TODO
+
 ## Learn more
 
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+- Official website: https://www.phoenixframework.org/
+- Guides: https://hexdocs.pm/phoenix/overview.html
+- Docs: https://hexdocs.pm/phoenix
+- Forum: https://elixirforum.com/c/phoenix-forum
+- Source: https://github.com/phoenixframework/phoenix
