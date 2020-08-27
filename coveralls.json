@@ -19,6 +19,6 @@
 		"lib/communication_ruler_web/gettext.ex",
 		"lib/communication_ruler_web/router.ex",
 		"lib/communication_ruler_web/telemetry.ex",
-    "test/support"
-  ]
+		"test/support"
+	]
 }
