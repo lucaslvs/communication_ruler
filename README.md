@@ -1,14 +1,20 @@
-# CommunicationRuler
+# Communication Ruler
 
-To start your Phoenix server:
+## Setup
 
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.setup`
-  * Start Phoenix endpoint with `mix phx.server`
+TODO
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+## Development
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
+TODO
+
+## Testing
+
+> TODO
+
+## Deployng
+
+> TODO
 
 ## Learn more
 
