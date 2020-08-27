@@ -1,0 +1,24 @@
+{
+	"coverage_options": {
+		"treat_no_relevant_lines_as_covered": true,
+		"output_dir": "cover/",
+		"minimum_coverage": 90
+	},
+	"default_stop_words": [
+		"defmodule",
+		"defrecord",
+		"defimpl",
+		"def.+(.+\/\/.+).+do"
+	],
+	"skip_files": [
+		"lib/communication_ruler.ex",
+		"lib/communication_ruler/application.ex",
+		"lib/communication_ruler/repo.ex",
+		"lib/communication_ruler_web.ex",
+		"lib/communication_ruler_web/endpoint.ex",
+		"lib/communication_ruler_web/gettext.ex",
+		"lib/communication_ruler_web/router.ex",
+		"lib/communication_ruler_web/telemetry.ex",
+    "test/support"
+  ]
+}
