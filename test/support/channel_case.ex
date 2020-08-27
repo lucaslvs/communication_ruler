@@ -17,6 +17,8 @@ defmodule CommunicationRulerWeb.ChannelCase do
 
   use ExUnit.CaseTemplate
 
+  alias Ecto.Adapters.SQL.Sandbox
+
   using do
     quote do
       # Import conveniences for testing with channels
@@ -29,10 +31,10 @@ defmodule CommunicationRulerWeb.ChannelCase do
   end
 
   setup tags do
-    :ok = Ecto.Adapters.SQL.Sandbox.checkout(CommunicationRuler.Repo)
+    :ok = Sandbox.checkout(CommunicationRuler.Repo)
 
     unless tags[:async] do
-      Ecto.Adapters.SQL.Sandbox.mode(CommunicationRuler.Repo, {:shared, self()})
+      Sandbox.mode(CommunicationRuler.Repo, {:shared, self()})
     end
 
     :ok
